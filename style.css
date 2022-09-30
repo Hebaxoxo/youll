@@ -1,0 +1,142 @@
+.ul1{
+  list-style: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  overflow-x: hidden;
+}
+.listitem{
+  display: inline;
+  padding-left: 10px;
+}
+#btshead{
+  display: inline;
+  padding-right: 20px;
+  color: white;
+}
+.navbar{
+  display: flex;
+  background-color: #4C6793;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+nav {
+  display: flex;
+  background-color: #4C6793;
+  width: 100%;
+}
+.link1{
+  text-decoration: none;
+  color: white;
+}
+.link1:hover{
+  color:black;
+}
+#btshead:hover{
+  color: black;
+}
+.navybar{
+  background-color: #4C6793;
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+}
+
+.photogroup{
+  background-color: black;
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.photogroup{
+  width: 100%;
+  height: auto;
+  max-height: 50%
+}
+
+.spotifybutton{
+
+}
+.Memberodd{
+  background-color: #5C2E7E;
+  margin: 0;
+  display: inline-block;
+  padding: 10px;
+}
+#members{
+  text-align: center;
+  color: white;
+}
+
+.Membereven{
+  background-color: #000000;
+  padding: 10px;
+
+}
+#jinimg{
+  height: 500px;
+  width: auto;
+  vertical-align: text-top;
+}
+.memberparaeven, .memberheadeven{
+  color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+
+}
+.memberparaeven{
+  text-emphasis: 10px;
+}
+.buttons1 button{
+  background-color: #5C2E7E;
+  border-style:  solid;
+  border-color: white;
+  color: white;
+}
+.memberparaodd, .memberheadodd{
+  color: white;
+  text-emphasis: 10px;
+  filter: drop-shadow(1px 1px 1px black);
+  text-align: center;
+}
+
+.buttons2 button{
+  background-color: black;
+  border-style:  solid;
+  border-color: white;
+  color: white;
+}
+.Fandom{
+  background: url("btspurpleocean.jpg");
+  background-position: bottom;
+  background-size: cover;
+  padding: 50px;
+  color:white;
+}
+.Fandom p {
+  filter: drop-shadow(30px 30px 10px black);
+}
+.album{
+  height: 100%;
+  width: 50%;
+  max-width: 100%;
+  display: inline-block;
+}
+.RandomFacts{
+  color:white;
+}
+#sendit{
+  color:#5C2E7E;
+}
+figure{
+  margin-left: 0;
+  margin-right: 0;
+}
